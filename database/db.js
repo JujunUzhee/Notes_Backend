@@ -6,8 +6,7 @@ const db = mysql.createPool({
     user:process.env.USER,
     password:process.env.PASSWORD,
     database:process.env.DATABASE,
-    // tambahan
-    port:process.env.PORT
+
 })
 
 const testConnection=async()=>{
